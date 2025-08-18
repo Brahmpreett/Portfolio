@@ -21,19 +21,6 @@ It showcases my **skills, projects, resume, and contact information** in a clean
 ## 📸 Preview
 [Live Demo](https://brahmpreett.github.io/Portfolio)
 
-## 📂 Project Structure
-Portfolio/
-┣ src/
-┃ ┣ components/ # Reusable UI components
-┃ ┣ pages/ # About, Projects, Resume, Contact
-┃ ┣ App.tsx # Main app entry
-┃ ┗ index.css # Tailwind styles
-┣ public/ # Static assets
-┣ package.json
-┣ tailwind.config.js
-┗ vite.config.ts
-
-
 ## 🚀 Run Locally
 Clone the project:
 ```bash
