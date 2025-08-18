@@ -22,3 +22,43 @@ It showcases my **skills, projects, resume, and contact information** in a clean
 [Live Demo](https://brahmpreett.github.io/Portfolio)
 
 ## 📂 Project Structure
+Portfolio/
+┣ src/
+┃ ┣ components/ # Reusable UI components
+┃ ┣ pages/ # About, Projects, Resume, Contact
+┃ ┣ App.tsx # Main app entry
+┃ ┗ index.css # Tailwind styles
+┣ public/ # Static assets
+┣ package.json
+┣ tailwind.config.js
+┗ vite.config.ts
+
+
+## 🚀 Run Locally
+Clone the project:
+```bash
+git clone https://github.com/Brahmpreett/Portfolio.git
+cd Portfolio
+
+
+Install dependencies:
+
+npm install
+
+
+Start the server:
+
+npm run dev
+
+
+Build for production:
+
+npm run build
+
+📬 Contact
+
+If you like my work or want to collaborate, feel free to connect:
+Email: brahmpreetsarna@gmail.com
+LinkedIn: https://www.linkedin.com/in/brahmpreet-singh-5b2a5029a/
+
+⭐ Don’t forget to give this repo a star if you found it inspiring!
