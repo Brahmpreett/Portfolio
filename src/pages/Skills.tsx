@@ -13,20 +13,23 @@ const skillCategories = [
 ];
 
 const skills = [
-  { name: 'React', category: 'frontend', proficiency: 95 },
-  { name: 'TypeScript', category: 'frontend', proficiency: 90 },
-  { name: 'Next.js', category: 'frontend', proficiency: 85 },
-  { name: 'Tailwind CSS', category: 'frontend', proficiency: 92 },
-  { name: 'Node.js', category: 'backend', proficiency: 88 },
-  { name: 'Express', category: 'backend', proficiency: 85 },
-  { name: 'PostgreSQL', category: 'backend', proficiency: 82 },
-  { name: 'MongoDB', category: 'backend', proficiency: 80 },
-  { name: 'Figma', category: 'design', proficiency: 85 },
-  { name: 'Adobe XD', category: 'design', proficiency: 78 },
-  { name: 'Photoshop', category: 'design', proficiency: 75 },
-  { name: 'Git', category: 'tools', proficiency: 90 },
-  { name: 'Docker', category: 'tools', proficiency: 75 },
-  { name: 'AWS', category: 'tools', proficiency: 70 },
+  { name: 'HTML5', category: 'frontend', proficiency: 85 },
+  { name: 'CSS3', category: 'frontend', proficiency: 80 },
+  { name: 'JavaScript (ES6+)', category: 'frontend', proficiency: 75 },
+  { name: 'Tailwind CSS', category: 'frontend', proficiency: 80 },
+  { name: 'React', category: 'frontend', proficiency: 85 },
+  
+  { name: 'Node.js', category: 'backend', proficiency: 75 },
+  { name: 'Python', category: 'backend', proficiency: 70 },
+  { name: 'SQL', category: 'backend', proficiency: 70 },
+
+  { name: 'Canva', category: 'design', proficiency: 75 },
+  { name: 'Adobe Firefly', category: 'design', proficiency: 65 },
+
+  { name: 'npm', category: 'tools', proficiency: 80 },
+  { name: 'Linux', category: 'tools', proficiency: 70 },
+  { name: 'Git & Github', category: 'tools', proficiency: 75 },
+  { name: 'VS Code', category: 'tools', proficiency: 85 },
 ];
 
 const Skills = () => {

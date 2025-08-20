@@ -6,43 +6,43 @@ import Tag from '@/components/ui/tag';
 
 const experiences = [
   {
-    title: 'Senior Frontend Developer',
-    company: 'Tech Innovations Inc.',
-    duration: '2022 - Present',
-    description: 'Led the development of responsive web applications using React and TypeScript. Mentored junior developers and established best practices.',
-    skills: ['React', 'TypeScript', 'Team Leadership']
+    title: 'Frontend Developer (Portfolio Project)',
+    company: 'Self',
+    duration: '2025',
+    description: 'Developed and deployed a personal portfolio website using modern frameworks with focus on responsive design, performance, and clean UI.',
+    skills: ['React', 'Tailwind CSS', 'Vercel']
   },
   {
-    title: 'Full Stack Developer',
-    company: 'Digital Solutions Co.',
-    duration: '2021 - 2022',
-    description: 'Built and maintained full-stack applications using modern web technologies. Collaborated with design teams to implement pixel-perfect UIs.',
-    skills: ['React', 'Node.js', 'PostgreSQL']
+    title: 'Algorithm Visualizer Project',
+    company: 'Self',
+    duration: '2025',
+    description: 'Created an interactive Sorting Visualizer to demonstrate algorithms like Bubble Sort, Merge Sort, and Quick Sort, enhancing understanding of DSA concepts through visual representation.',
+    skills: ['JavaScript', 'Algorithm', 'Data Structures']
   },
   {
-    title: 'Frontend Developer',
-    company: 'StartupXYZ',
-    duration: '2020 - 2021',
-    description: 'Developed user-facing features for a fast-growing startup. Optimized application performance and improved user experience.',
-    skills: ['JavaScript', 'Vue.js', 'CSS']
+    title: 'Open Source & Community Contributions',
+    company: 'Google',
+    duration: '2023 - Present',
+    description: 'Active participant in developer communities including Google Developer Program and Firebase Studio Community. Explored tools and contributed to collaborative projects.',
+    skills: ['Git & Github', 'npm', 'Community Engagement']
   }
 ];
 
 const education = [
   {
-    degree: 'Bachelor of Computer Science',
-    institution: 'University of Technology',
-    duration: '2016 - 2020',
-    description: 'Focused on software engineering, algorithms, and data structures. Graduated Magna Cum Laude.',
-    achievements: ['Magna Cum Laude', 'Dean\'s List']
+    degree: 'Bachelor of Electronics and Computer Science',
+    institution: 'Thapar University of Engineering and Technology',
+    duration: '2023 - 2027',
+    description: 'Focused on software engineering, algorithms, and data structures.',
+    achievements: ['Arduino Projects', 'Signal Processing Experiments']
   }
 ];
 
 const achievements = [
-  'Top Performer Award 2023',
-  'Hackathon Winner - TechFest 2022',
-  'Open Source Contributor - 500+ contributions',
-  'Published Technical Articles - 10+ publications'
+  'Arduino Projects - obstacle detection buggy, wireless control',
+  'Digital Signal Processing - 74x148 encoder',
+  'Portfolio Website - React, Tailwind',
+  'Google Developer Program - Firebase Community member'
 ];
 
 const Resume = () => {
@@ -71,20 +71,20 @@ const Resume = () => {
         <CardComponent gradient>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
             <div>
-              <div className="text-3xl font-bold gradient-text-secondary mb-2">3+</div>
+              <div className="text-3xl font-bold gradient-text-secondary mb-2">2+</div>
               <p className="text-muted-foreground">Years Experience</p>
             </div>
             <div>
-              <div className="text-3xl font-bold gradient-text-secondary mb-2">50+</div>
+              <div className="text-3xl font-bold gradient-text-secondary mb-2">6+</div>
               <p className="text-muted-foreground">Projects Completed</p>
             </div>
             <div>
-              <div className="text-3xl font-bold gradient-text-secondary mb-2">15+</div>
+              <div className="text-3xl font-bold gradient-text-secondary mb-2">10+</div>
               <p className="text-muted-foreground">Technologies Mastered</p>
             </div>
             <div>
               <div className="text-3xl font-bold gradient-text-secondary mb-2">100%</div>
-              <p className="text-muted-foreground">Client Satisfaction</p>
+              <p className="text-muted-foreground">Project Completion</p>
             </div>
           </div>
         </CardComponent>
