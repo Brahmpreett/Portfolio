@@ -8,10 +8,11 @@ import SectionHeader from '@/components/ui/section-header';
 import CardComponent from '@/components/ui/card-component';
 
 const socialLinks = [
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
+  { icon: Github, href: 'https://github.com/Brahmpreett', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/brahmpreet-singh-5b2a5029a/', label: 'LinkedIn' },
+  { icon: Twitter, href: 'https://x.com/brahmpreett_645', label: 'Twitter' },
 ];
+
 
 const contactInfo = [
   { icon: Mail, label: 'Email', value: 'brahmpreetsarna@gmail.com' },
