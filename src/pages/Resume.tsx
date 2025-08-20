@@ -31,10 +31,17 @@ const experiences = [
 const education = [
   {
     degree: 'Bachelor of Electronics and Computer Science',
-    institution: 'Thapar University of Engineering and Technology',
+    institution: 'Thapar University of Engineering and Technology, Patiala',
     duration: '2023 - 2027',
     description: 'Focused on software engineering, algorithms, and data structures.',
     achievements: ['Arduino Projects', 'Signal Processing Experiments']
+  },
+  {
+    degree: '10+2',
+    institution: 'BCM Senior Secoondary School, Ludhiana',
+    duration: '2022 - 2023',
+    description: 'Non-Medical - Physics, Chemistry and Maths',
+    achievements: ['83.6%']
   }
 ];
 
