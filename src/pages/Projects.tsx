@@ -3,19 +3,19 @@ import { Button } from '@/components/ui/button';
 import SectionHeader from '@/components/ui/section-header';
 import CardComponent from '@/components/ui/card-component';
 import Tag from '@/components/ui/tag';
-import ecommerceImage from '@/assets/project-ecommerce.jpg';
+import visualizerImage from '@/assets/project-sorting-visualizer.jpg';
 import taskboardImage from '@/assets/project-taskboard.jpg';
 import weatherImage from '@/assets/project-weather.jpg';
 
 const projects = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform with user authentication, payment processing, and admin dashboard.',
-    image: ecommerceImage,
-    technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-    liveUrl: '#',
-    codeUrl: '#',
+    title: 'Algorithm Sorting Visualiser',
+    description: 'An interactive web tool that visually demonstrates popular sorting algorithms through animated array operations.',
+    image: visualizerImage,
+    technologies: ['CSS', 'JavaScript', 'HTML'],
+    liveUrl: 'https://brahmpreett.github.io/Sorting_Visualizer/',
+  codeUrl: 'https://github.com/brahmpreett/Sorting_Visualizer',
   },
   {
     id: 2,

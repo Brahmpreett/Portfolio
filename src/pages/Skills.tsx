@@ -17,7 +17,7 @@ const skills = [
   { name: 'CSS3', category: 'frontend', proficiency: 80 },
   { name: 'JavaScript (ES6+)', category: 'frontend', proficiency: 75 },
   { name: 'Tailwind CSS', category: 'frontend', proficiency: 80 },
-  { name: 'React', category: 'frontend', proficiency: 85 },
+  { name: 'React', category: 'frontend', proficiency: 75 },
   
   { name: 'Node.js', category: 'backend', proficiency: 75 },
   { name: 'Python', category: 'backend', proficiency: 70 },
@@ -43,7 +43,7 @@ const Skills = () => {
     <div className="py-16">
       <SectionHeader
         title="Skills & Expertise"
-        subtitle="Technologies and tools I work with"
+        subtitle="Technologies and the tools I work with."
       />
 
       {/* Filter Chips */}

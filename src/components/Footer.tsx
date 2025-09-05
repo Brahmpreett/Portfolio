@@ -8,7 +8,7 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
             <Link
               to="/support"
-              className="animated-underline hover:text-foreground transition-colors duration-200 focus-ring"
+              className="relative bg-gradient-to-r from-gradient-primary-start to-gradient-primary-end bg-clip-text text-transparent animated-underline transition-colors duration-200 focus-ring"
             >
               Support
             </Link>

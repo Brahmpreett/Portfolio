@@ -18,7 +18,7 @@ const Home = () => {
             Full Stack Developer
           </p>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Crafting digital experiences that combine beautiful design with powerful functionality.
+            Orchestrating digital realms that entwine resplendent aesthetics with formidable efficacy.
           </p>
           
           {/* Animated gradient line */}
