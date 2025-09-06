@@ -19,7 +19,7 @@ It showcases my **skills, projects, resume, and contact information** in a clean
 - **React Router**
 
 ## 📸 Preview
-[Live Demo](https://brahmpreett.github.io/Portfolio)
+[Live Demo](https://brahmpreet.vercel.app)
 
 ## 🚀 Run Locally
 Clone the project:
