@@ -30,6 +30,7 @@ const skills = [
   { name: 'Linux', category: 'tools', proficiency: 70 },
   { name: 'Git & Github', category: 'tools', proficiency: 75 },
   { name: 'VS Code', category: 'tools', proficiency: 85 },
+  { name: 'Matlab', category: 'tools', proficiency: 72 },
 ];
 
 const Skills = () => {
