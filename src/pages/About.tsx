@@ -45,7 +45,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-              Full-stack enthusiast with more than 3 years of experience developing
+              Full-stack enthusiast with more than 2 years of experience developing
               web applications users adore. My background is rooted in curiosity 
                and has grown into a dedication to delivering innovative solutions.
 
