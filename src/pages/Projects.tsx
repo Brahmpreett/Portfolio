@@ -4,7 +4,7 @@ import SectionHeader from '@/components/ui/section-header';
 import CardComponent from '@/components/ui/card-component';
 import Tag from '@/components/ui/tag';
 import visualizerImage from '@/assets/project-sorting-visualizer.jpg';
-import taskboardImage from '@/assets/project-taskboard.jpg';
+import potliImage from '@/assets/potli.png';
 import weatherImage from '@/assets/project-weather.jpg';
 
 const projects = [
@@ -19,12 +19,12 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Task Management App',
-    description: 'Collaborative task management application with real-time updates, drag-and-drop interface.',
-    image: taskboardImage,
-    technologies: ['React', 'TypeScript', 'Socket.io', 'MongoDB'],
-    liveUrl: '#',
-    codeUrl: '#',
+    title: 'Potli - Finance Management App',
+    description: 'A visual budget management web app inspired by traditional Indian potli saving, where income auto-splits into categories with real-time balance tracking and customization.',
+    image: potliImage,
+    technologies: ['React', 'TypeScript', 'CSS', 'PLpgSQL'],
+    liveUrl: 'https://potlis.vercel.app/',
+    codeUrl: 'https://github.com/Brahmpreett/potli',
   },
   {
     id: 3,
