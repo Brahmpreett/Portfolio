@@ -13,24 +13,24 @@ const skillCategories = [
 ];
 
 const skills = [
-  { name: 'HTML5', category: 'frontend', proficiency: 85 },
-  { name: 'CSS3', category: 'frontend', proficiency: 80 },
-  { name: 'JavaScript (ES6+)', category: 'frontend', proficiency: 75 },
-  { name: 'Tailwind CSS', category: 'frontend', proficiency: 80 },
-  { name: 'React', category: 'frontend', proficiency: 75 },
+  { name: 'HTML5', category: 'frontend' },
+  { name: 'CSS3', category: 'frontend'},
+  { name: 'JavaScript (ES6+)', category: 'frontend'},
+  { name: 'Tailwind CSS', category: 'frontend'},
+  { name: 'React', category: 'frontend' },
   
-  { name: 'Node.js', category: 'backend', proficiency: 75 },
-  { name: 'Python', category: 'backend', proficiency: 70 },
-  { name: 'SQL', category: 'backend', proficiency: 70 },
+  { name: 'Node.js', category: 'backend' },
+  { name: 'Python', category: 'backend' },
+  { name: 'SQL', category: 'backend' },
 
-  { name: 'Canva', category: 'design', proficiency: 75 },
-  { name: 'Adobe Firefly', category: 'design', proficiency: 65 },
+  { name: 'Canva', category: 'design' },
+  { name: 'Adobe Firefly', category: 'design' },
 
-  { name: 'npm', category: 'tools', proficiency: 80 },
-  { name: 'Linux', category: 'tools', proficiency: 70 },
-  { name: 'Git & Github', category: 'tools', proficiency: 75 },
-  { name: 'VS Code', category: 'tools', proficiency: 85 },
-  { name: 'Matlab', category: 'tools', proficiency: 72 },
+  { name: 'npm', category: 'tools'},
+  { name: 'Linux', category: 'tools' },
+  { name: 'Git & Github', category: 'tools' },
+  { name: 'VS Code', category: 'tools'},
+  { name: 'Matlab', category: 'tools' },
 ];
 
 const Skills = () => {
@@ -75,29 +75,30 @@ const Skills = () => {
             className="animate-scale-in"
             style={{ animationDelay: `${index * 100}ms` }}
           >
-            <div className="space-y-4">
-              <div className="flex items-center justify-between">
-                <h3 className="font-semibold text-lg">{skill.name}</h3>
-                <span className="text-sm text-muted-foreground">
-                  {skill.proficiency}%
-                </span>
+            
+            <div className="flex flex-col items-center justify-centre h-full text-center space-y-2">
+              <h3 className="font-semibold text-lg">{skill.name}</h3>
+              {/* <span className="text-sm text-muted-foreground">
+                {skill.proficiency}%
+              </span> */}
+            
+            
+            {/* Proficiency Bar
+            <div className="space-y-2">
+              <div className="w-full bg-muted rounded-full h-2">
+                <div
+                  className="gradient-primary h-2 rounded-full transition-all duration-1000 ease-out"
+                  style={{ width: `${skill.proficiency}%` }}
+                />
               </div>
-              
-              {/* Proficiency Bar */}
-              <div className="space-y-2">
-                <div className="w-full bg-muted rounded-full h-2">
-                  <div
-                    className="gradient-primary h-2 rounded-full transition-all duration-1000 ease-out"
-                    style={{ width: `${skill.proficiency}%` }}
-                  />
-                </div>
-              </div>
+            </div> */}
               
               {/* Category Tag */}
               <Tag variant="gradient" size="sm">
                 {skillCategories.find(cat => cat.id === skill.category)?.label}
               </Tag>
             </div>
+            
           </CardComponent>
         ))}
       </div>
