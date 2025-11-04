@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Code, Database, Palette, Wrench } from 'lucide-react';
+import { Code, Database, Bot, Wrench } from 'lucide-react';
 import SectionHeader from '@/components/ui/section-header';
 import CardComponent from '@/components/ui/card-component';
 import Tag from '@/components/ui/tag';
@@ -8,7 +8,7 @@ const skillCategories = [
   { id: 'all', label: 'All', icon: null },
   { id: 'frontend', label: 'Frontend', icon: Code },
   { id: 'backend', label: 'Backend', icon: Database },
-  { id: 'ai', label: 'AI', icon: Palette },
+  { id: 'ai', label: 'AI', icon: Bot },
   { id: 'tools', label: 'Tools', icon: Wrench },
 ];
 
