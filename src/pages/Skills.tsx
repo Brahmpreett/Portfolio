@@ -8,7 +8,7 @@ const skillCategories = [
   { id: 'all', label: 'All', icon: null },
   { id: 'frontend', label: 'Frontend', icon: Code },
   { id: 'backend', label: 'Backend', icon: Database },
-  { id: 'design', label: 'Design', icon: Palette },
+  { id: 'ai', label: 'AI', icon: Palette },
   { id: 'tools', label: 'Tools', icon: Wrench },
 ];
 
@@ -23,8 +23,11 @@ const skills = [
   { name: 'Python', category: 'backend' },
   { name: 'SQL', category: 'backend' },
 
-  { name: 'Canva', category: 'design' },
-  { name: 'Adobe Firefly', category: 'design' },
+  { name: 'Artificial Intelligence Fundamentals', category: 'ai' },
+  { name: 'Machine Learning', category: 'ai' },
+  { name: 'Data Processing & Model Development', category: 'ai' },
+  { name: 'Cloud Computing (Google Cloud Platform)', category: 'ai' },
+  { name: 'MLOps & Deployment', category: 'ai' },
 
   { name: 'npm', category: 'tools'},
   { name: 'Linux', category: 'tools' },
