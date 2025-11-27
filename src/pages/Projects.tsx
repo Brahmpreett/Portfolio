@@ -5,7 +5,7 @@ import CardComponent from '@/components/ui/card-component';
 import Tag from '@/components/ui/tag';
 import visualizerImage from '@/assets/project-sorting-visualizer.jpg';
 import potliImage from '@/assets/potli.png';
-import weatherImage from '@/assets/project-weather.jpg';
+import shopsyraImage from '@/assets/shopsyra.png';
 
 const projects = [
   {
@@ -28,12 +28,12 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Weather Dashboard',
-    description: 'Beautiful weather application with location-based forecasts and interactive maps.',
-    image: weatherImage,
-    technologies: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind'],
-    liveUrl: '#',
-    codeUrl: '#',
+    title: 'Shopsyra - AI powered shopping companiion',
+    description: 'An AI-powered assistant that provides product locations, optimized in-store routes, and voice/text interactions for a faster shopping experience.',
+    image: shopsyraImage,
+    technologies: ['React', 'TypeScript', 'OpenAI API'],
+    liveUrl: 'https://shopsyra.vercel.app/',
+    codeUrl: 'https://github.com/Brahmpreett/shopsyra',
   },
 ];
 
