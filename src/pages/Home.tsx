@@ -15,7 +15,7 @@ const Home = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
-            Python Developer | Front-end Developer
+            Python Developer | Full Stack Developer
           </p>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
             Orchestrating digital realms that entwine resplendent aesthetics with formidable efficacy.

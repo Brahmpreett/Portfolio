@@ -17,11 +17,12 @@ const skills = [
   { name: 'CSS3', category: 'frontend'},
   { name: 'JavaScript (ES6+)', category: 'frontend'},
   { name: 'Tailwind CSS', category: 'frontend'},
-  { name: 'React', category: 'frontend' },
+  { name: 'React JS', category: 'frontend' },
   
   { name: 'Node.js', category: 'backend' },
   { name: 'Python', category: 'backend' },
   { name: 'SQL', category: 'backend' },
+  { name: 'AWS', category: 'backend' },
 
   { name: 'Artificial Intelligence Fundamentals', category: 'ai' },
   { name: 'Machine Learning', category: 'ai' },
