@@ -4,8 +4,7 @@ import Tag from '@/components/ui/tag';
 import profileImage from '@/assets/profile.jpg';
 
 const interests = [
-  'Web Development','Embedded systems', 'Machine Learning', 
-  'App Development', 'Fitness', 'Chess', 'Gaming', 'Guitar'
+  'Chess', 'Fitness', 'Guitar', 'Learning foreign languages', "Rubik's Cube", 'Swimming',
 ];
 
 const About = () => {
@@ -13,28 +12,17 @@ const About = () => {
     <div className="py-16">
       <SectionHeader
         title="About Me"
-        subtitle="Get to know the person behind the code"
+        subtitle="Get to know the man behind the code"
       />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Profile Image */}
         <div className="text-center lg:text-left">
-          <div className="relative inline-block">
-            <div className="absolute inset-0 gradient-primary rounded-full p-1 animate-pulse-slow">
-              <div className="bg-background rounded-full p-2">
-                <img
-                  src={profileImage}
-                  alt="Profile"
-                  className="w-64 h-64 object-cover rounded-full mx-auto"
-                />
-              </div>
-            </div>
-            <img
-              src={profileImage}
-              alt="Profile"
-              className="w-64 h-64 object-cover rounded-full mx-auto relative z-10"
-            />
-          </div>
+          <img
+            src={profileImage}
+            alt="Profile"
+            className="w-64 h-64 object-cover rounded-full mx-auto"
+          />
         </div>
 
         {/* Bio Content */}
@@ -47,7 +35,7 @@ const About = () => {
               <p>
               Full-stack enthusiast with more than 2 years of experience developing
               web applications users adore. My background is rooted in curiosity 
-               and has grown into a dedication to delivering innovative solutions.
+              and has grown into a dedication to delivering innovative solutions.
 
               </p>
               <p>

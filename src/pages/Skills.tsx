@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Code, Database, Bot, Wrench } from 'lucide-react';
+import { Code, Database, Bot, Wrench, Cloud } from 'lucide-react';
 import SectionHeader from '@/components/ui/section-header';
 import CardComponent from '@/components/ui/card-component';
 import Tag from '@/components/ui/tag';
@@ -8,32 +8,45 @@ const skillCategories = [
   { id: 'all', label: 'All', icon: null },
   { id: 'frontend', label: 'Frontend', icon: Code },
   { id: 'backend', label: 'Backend', icon: Database },
-  { id: 'ai', label: 'AI', icon: Bot },
+  { id: 'ai', label: 'AI / ML', icon: Bot },
+  { id: 'cloud', label: 'Cloud', icon: Cloud },
   { id: 'tools', label: 'Tools', icon: Wrench },
 ];
 
 const skills = [
+  // Frontend
   { name: 'HTML5', category: 'frontend' },
-  { name: 'CSS3', category: 'frontend'},
-  { name: 'JavaScript (ES6+)', category: 'frontend'},
-  { name: 'Tailwind CSS', category: 'frontend'},
+  { name: 'CSS3', category: 'frontend' },
+  { name: 'JavaScript (ES6+)', category: 'frontend' },
+  { name: 'Tailwind CSS', category: 'frontend' },
   { name: 'React JS', category: 'frontend' },
-  
+
+  // Backend
   { name: 'Node.js', category: 'backend' },
   { name: 'Python', category: 'backend' },
   { name: 'SQL', category: 'backend' },
-  { name: 'AWS', category: 'backend' },
 
+  // AI / ML
   { name: 'Artificial Intelligence Fundamentals', category: 'ai' },
   { name: 'Machine Learning', category: 'ai' },
   { name: 'Data Processing & Model Development', category: 'ai' },
   { name: 'Cloud Computing (Google Cloud Platform)', category: 'ai' },
   { name: 'MLOps & Deployment', category: 'ai' },
 
-  { name: 'npm', category: 'tools'},
+  // Cloud
+  { name: 'AWS EC2', category: 'cloud' },
+  { name: 'AWS S3', category: 'cloud' },
+  { name: 'Static Website Hosting (EC2 & S3)', category: 'cloud' },
+  { name: 'Nginx Web Server', category: 'cloud' },
+  { name: 'SSH Remote Server Access (PuTTY)', category: 'cloud' },
+  { name: 'Linux Server Administration', category: 'cloud' },
+  { name: 'AWS Security Groups & Networking', category: 'cloud' },
+
+  // Tools
+  { name: 'npm', category: 'tools' },
   { name: 'Linux', category: 'tools' },
-  { name: 'Git & Github', category: 'tools' },
-  { name: 'VS Code', category: 'tools'},
+  { name: 'Git & GitHub', category: 'tools' },
+  { name: 'VS Code', category: 'tools' },
   { name: 'Matlab', category: 'tools' },
 ];
 
